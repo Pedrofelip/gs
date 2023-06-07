@@ -1,0 +1,506 @@
+.banner_inicio {
+    width: 100%;
+    height: 730px;
+}
+
+.card1 {
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url(../img/agricultor-agronomo-senior-trabalhador-no-campo-de-soja-verificando-as-colheitas-antes-da-colheita.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card2 {
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/feira.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    width: 100%;
+    height: 730px;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/doacao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhamento_banner {
+    width: 87%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alinhamento_banner2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.setas_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.seta_anterior {
+    width: 3.5%;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #1d2d4400;
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.seta_proximo {
+    width: 3.5%;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #1d2d4400;
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.bolinhas_banner {
+    position: absolute;
+    top: 84%;
+    left: 49%;
+}
+
+.seta_anterior:hover,
+.seta_proximo:hover {
+    width: 3.5%;
+    height: 65px;
+    border-radius: 50px;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(128, 128, 128, 0.589);
+    border: none;
+    transition: all 0.25s ease-in;
+}
+
+.txt_banner {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_banner {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.descricao_banner {
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 65px;
+}
+
+.btn_banner {
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn_cadastro {
+    text-decoration: none;
+    width: 35.7%;
+    height: 5.4vh;
+    border: 3px solid #48734B;
+    background-color: #F2F2F2;
+    color: #48734B;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 700px;
+    background-color: #48734B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tit_sec2 {
+    width: 90%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.tit_sec2>h2 {
+    color: #F2F2F2;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 60px;
+}
+
+.wrap_section2 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_section2 {
+    width: 600px;
+    height: 600px;
+
+}
+
+.textos_section2 {
+    width: 40%;
+    height: 100%;
+
+}
+
+.textos_section2>h3 {
+    color: #F2F2F2;
+    padding: 80px 0 0 15px;
+    font-size: 70px;
+    font-family: 'Dongle', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.textos_section2>p {
+    color: #F2F2F2;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.section3 {
+    width: 100%;
+    height: 650px;
+    background-color: #F2F2F2;
+}
+
+.section3_div {
+    width: 100%;
+    height: 10%;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.section3_div>h2 {
+    text-transform: uppercase;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #48744C;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section3_cards {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_integrante {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #48744C;
+    width: 15%;
+    height: 70%;
+    border-radius: 15px;
+    padding-top: 45px;
+}
+
+.card_p {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #48744C;
+}
+
+.card_img {
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 980px) {
+    .txt_banner {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titulo_banner {
+        color: #fff;
+        font-size: 85px;
+    }
+    
+    .descricao_banner {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    
+    .section2 {
+        width: 100%;
+        height: 700px;
+        background-color: #48734B;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .tit_sec2 {
+        width: 90%;
+        height: 95px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .tit_sec2>h2 {
+        color: #F2F2F2;
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 50px;
+    }
+    
+    .wrap_section2 {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .img_section2 {
+        width: 300px;
+        height: 300px;
+    
+    }
+    
+    .textos_section2 {
+        width: 50%;
+        height: 100%;
+    
+    }
+    
+    .textos_section2>h3 {
+        color: #F2F2F2;
+        padding: 80px 0 0 15px;
+        font-size: 60px;
+        font-family: 'Dongle', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .textos_section2>p {
+        color: #F2F2F2;
+        font-size: 25px;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 300;
+    }
+
+    .section3 {
+        width: 100%;
+        height: 600px;
+        background-color: #F2F2F2;
+    }
+    
+    .section3_div>h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .section3_cards {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .card_integrante {
+        border-color: #48744C;
+        width: 18%;
+        height: 50%;
+    }
+    
+    .card_p {
+        font-size: 25px;
+    }
+    
+    .card_img {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    .alinhamento_banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bolinhas_banner {
+        position: absolute;
+        top: 84%;
+        left: 40%;
+    }
+
+    .titulo_banner {
+        font-size: 80px;
+    }
+    
+    .descricao_banner {
+        font-size: 20px;
+        margin-bottom: 65px;
+    }
+    
+    .btn_cadastro {
+        text-decoration: none;
+        width: 40%;
+        height: 5.4vh;
+        font-size: 20px;
+    }
+
+    
+    .tit_sec2>h2 {
+        color: #F2F2F2;
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 50px;
+    }
+    
+    .wrap_section2 {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img_section2 {
+        width: 300px;
+        height: 300px;
+    
+    }
+    
+    .textos_section2 {
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .textos_section2>h3 {
+        padding: 0 0 0 15px;
+        font-size: 60px;
+    }
+    
+    .textos_section2>p {
+        font-size: 20px;
+    }
+    
+    .section3 {
+        width: 100%;
+        height: 100%;
+        background-color: #F2F2F2;
+    }
+    
+    .section3_div {
+        width: 100%;
+        height: 10%;
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+    
+    .section3_div>h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .section3_cards {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .card_integrante {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #48744C;
+        width: 40%;
+        height: 40%;
+        border-radius: 15px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card_p {
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-family: 'Dongle', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #48744C;
+    }
+    
+    .card_img {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+}
